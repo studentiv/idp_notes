@@ -50,8 +50,6 @@ class NoteListPage extends StatefulWidget {
 }
 
 class _NoteListPageState extends State<NoteListPage> {
-  final animation = Animation<double>;
-
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(title: const Text("Notes")),
